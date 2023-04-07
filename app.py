@@ -20,7 +20,7 @@ migrate = Migrate(app, db)
 app.register_blueprint(qa_bp)
 app.register_blueprint(auth_bp)
 
-# blueprint:用來做模塊區分的
+# blueprint: 是用來做模塊區分的
 # 電影、讀書、音樂、.....
 
 # with app.app_context():
