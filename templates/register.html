@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %} 註冊頁面 {% endblock %}
+
+{% block head %}
+    <script src="{{ url_for('static', filename='jquery/jquery.3.6.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/register.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="row mt-4">
+    <div class="col"></div>
+    <div class="col">
+        <form method="POST">
+            <div class="form-group">
+                <label for="exampleInputEmail">信箱</label>
+            </div>
+        </form>
+    </div>
